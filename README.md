@@ -82,7 +82,7 @@ le modalità indicate sotto.
 
 La relazione di accompagnamento rappresenta una guida alla comprensione del
 codice e alla valutazione del lavoro nel suo complesso. La relazione deve essere
-sintetica (indicativmente di lunghezza non superiore a qualche pagina) e deve
+sintetica (indicativamente di lunghezza non superiore a qualche pagina) e deve
 contenere:
 
 - autore o autori del lavoro

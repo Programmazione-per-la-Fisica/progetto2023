@@ -11,7 +11,7 @@ La geometria del sistema considerato è mostrata in figura:
 ![biliardo triangolare](biliardo.svg)
 
 Il sistema è delimitato da due segmenti rettilinei, i cui estremi
-sono definiti dai punti $[(0, r_1), (\ell, r_2)]$ e 
+sono definiti dai punti $[(0, r_1), (\ell, r_2)]$ e
 $[(0, -r_1), (\ell, -r_2)]$ rispettivamente.
 
 Una particella puntiforme inizia a muoversi, con velocità costante, lungo la
@@ -37,7 +37,7 @@ inferiore ($+$) rispettivamente.
 ## Obiettivo
 
 Progettare e sviluppare un codice che calcoli la traiettoria di una particella
-all'interno del sistema sopradescritto, quando questa parte dalle coordinate
+all'interno del sistema descritto sopra, quando questa parte dalle coordinate
 iniziali $(x = 0, y_0)$, e si muove lungo la traiettoria definita dall'angolo
 $\theta_0$.
 

@@ -134,7 +134,7 @@ A titolo di esempio:
 ## Suggerimenti sull'implementazione
 
 I parametri $s$, $a$, e $c$ delle regole di volo dipendono dall'implementazione
-delle velocità. In linea di principio sono dei fattori di proporzionlaità che
+delle velocità. In linea di principio sono dei fattori di proporzionalità che
 determinano l'influenza di una certa regola sul moto dei boids. Un suggerimento
 è provare in partenza con valori compresi tra 0 e 1, e trovare il range che più
 si adatta alla propria implementazione.
