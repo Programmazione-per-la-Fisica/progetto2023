@@ -82,10 +82,11 @@ le modalità indicate sotto.
 
 La relazione di accompagnamento rappresenta una guida alla comprensione del
 codice e alla valutazione del lavoro nel suo complesso. La relazione deve essere
-sintetica (indicativmente di lunghezza non superiore a qualche pagine) e deve
+sintetica (indicativmente di lunghezza non superiore a qualche pagina) e deve
 contenere:
 
 - autore o autori del lavoro
+- eventuali modifiche intercorse dalla consegna precedente
 - descrizione sintetica delle principali scelte progettuali e implementative
 - istruzioni su come compilare, testare, eseguire
 - descrizione del formato di input e di output, possibilmente con degli esempi
@@ -165,7 +166,7 @@ La valutazione si basa su cinque criteri:
   accompagnare il lettore nella comprensione del programma, nelle varie scelte
   di design, di implementazione, di ricerca della correttezza. Si tiene inoltre
   in conto la correttezza lessicale e grammaticale, nonché l'uso corretto della
-  lingua italiana.
+  lingua (italiana o inglese).
 
 - La **qualità del design** del programma intende valutare quanto il design
   dell'applicazione è appropriato per risolvere il problema proposto. Elementi
@@ -178,8 +179,8 @@ La valutazione si basa su cinque criteri:
 - La **qualità dell'implementazione** del programma intende valutare
   l'applicazione corretta ed efficiente dei costrutti del linguaggio C++
   nell'implementazione del programma secondo le convenzioni consolidate e
-  proposte a lezione. Verranno considerati, ad esempio, l'uso corretto di della
-  standard library o la formattazione del codice.
+  proposte a lezione. Verranno considerati, ad esempio, la leggibilità del
+  codice e l'uso corretto della standard library.
 
 - La **correttezza del programma** intende valutare quanto il comportamento del
   programma in esecuzione sia aderente a quanto specificato nella consegna e,
