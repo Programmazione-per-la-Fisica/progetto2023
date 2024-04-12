@@ -7,6 +7,7 @@
 - [Consegna](#consegna)
   - [Come creare l'archivio](#come-creare-larchivio)
 - [Valutazione](#valutazione)
+- [Eventuale riconsegna](#eventuale-riconsegna)
 
 ## Introduzione
 
@@ -198,8 +199,22 @@ Ogni criterio sarà valutato secondo la scala: *insufficiente*, *sufficiente*,
 sufficienza si intende acquisita solo se la valutazione di ogni singolo criterio
 è almeno sufficiente.
 
+## Eventuale riconsegna
+
 La valutazione del progetto vale per tutto l'anno accademico, ma è possibile
-fare ulteriori consegne per eventualmente migliorare la propria valutazione,
-proponendo variazioni significative rispetto alla consegna precedente. Ciò è
-ammesso anche se il lavoro era stato fatto originariamente in gruppo. Le
-variazioni intercorse vanno elencate all'inizio della nuova relazione.
+effettuare ulteriori *riconsegne* in caso questa sia risultata insufficiente, o
+per migliorarla anche se già sufficiente.
+
+In entrambi i casi, si richiede di **proporre variazioni significative**
+rispetto alla consegna precedente.
+
+Riconsegne individuali sono ammesse anche se il progetto è stato sviluppato
+originariamente in gruppo, ma i diversi componenti del gruppo si presentano
+all'orale ad appelli diversi.
+
+In tal caso, al fine di migliorare la valutazione, è necessario che le
+variazioni apportate al progetto *vadano oltre a quelle proposte dai docenti*
+durante i colloqui affrontati da coloro che hanno già sostenuto l'esame.
+
+In qualsiasi caso, **le variazioni** intercorse tra le diverse versioni del
+progetto **vanno elencate** esplicitamente **all'inizio della nuova relazione**.
