@@ -60,10 +60,10 @@ equilibrio:
 
 $$\begin{align*}
 e_{1} &= (0, 0)\\
-e_{2} &= (\frac{D}{C}, \frac{A}{B})\\
+e_{2} &= \left(\frac{D}{C}, \frac{A}{B} \right)\\
 \end{align*}$$
 
-Analogamente al caso dell'energia totale o di punti materiali sottoposti
+Analogamente al caso dell'energia totale di punti materiali sottoposti
 all'azione di soli campi di forze conservativi, il sistema è caratterizzato da
 un **integrale primo**:
 
@@ -90,25 +90,26 @@ utilizzi la versione discretizzata delle equazioni di Lotka-Volterra per
 calcolare, ad ogni passo dell'evoluzione, i valori $(x_i, y_i, H_i)$.
 
 La durata della simulazione, espressa in multipli interi dell'unità
-discretizzata di tempo $\Delta T$, deve essere una variabile che l'utente può
+discretizzata di tempo $\Delta t$, deve essere una variabile che l'utente può
 introdurre a _runtime_.
 
 Oltre alle caratteristiche minime che ogni progetto deve soddisfare (menzionate
 nella pagina [principale della repository](README.md)), in questo caso sono
 posti alcuni vincoli ulteriori.
 
-In primis, la descrizione del sistema deve essere implementata tramite una
+**In primis**, la descrizione del sistema deve essere implementata tramite una
 classe `Simulation` la quale deve, quantomeno:
 - contenere un metodo `evolve()` che permetta di fare progredire la
-  simulazione di una singola unità discretizzata di tempo;
-- mantenere al suo interno tutti gli stati di evoluzione del sistema per ogni
-  unità di tempo e renderli accessibili all'utente per eventuali stampe su
-  schermo o analisi.
+  simulazione di una singola unità $\Delta t$;
+- mantenere al suo interno i valori $(x_i, y_i, H_i)$ per tutti gli stati di
+  evoluzione del sistema e renderli accessibili all'utente per eventuali stampe
+  su schermo o analisi.
 
-In secondo luogo, al fine di migliorare la stabilità del calcolo numerico
-durante l'evoluzione, si richiede di utilizzare valori di $\Delta t ~ 0.001$ e
-di rappresentare internamente $x_i$ ed $y_i$ come numeri `double`, il cui valore
-viene espresso come frazione dei valori del punto di equilibrio $e_{2}$.
+**In secondo luogo**, al fine di migliorare la stabilità del calcolo numerico
+durante l'evoluzione, si richiede di utilizzare valori di $\Delta t$ dell'ordine
+di $0.001$ e di rappresentare internamente $x_i$ ed $y_i$ come numeri `double`,
+il cui valore viene espresso come frazione dei valori del punto di equilibrio
+$e_{2}$.
 
 > Ad esempio, in un sistema in cui $e_{2} = (1000.0, 800.0)$ la coppia di
 > valori $(x_i, y_i) = (1200.0, 1000.0)$, diventerebbe, ai fini del calcolo,
