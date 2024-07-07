@@ -105,7 +105,8 @@ LibreOffice), ricordarsi di esportare in formato `pdf`.
 ## Consegna
 
 La consegna avverrà su [virtuale](https://virtuale.unibo.it) in prossimità di
-ogni appello (indicativamente 10 giorni prima) tramite un file archivio `.zip` o
+ogni appello (indicativamente 10 giorni prima, contemporaneamente all'iscrizione
+su [AlmaEsami](https://almaesami.unibo.it)) tramite un file archivio `.zip` o
 `.tgz`. Ogni studente/studentessa deve inviare l'archivio, anche se il lavoro è
 svolto in gruppo. La consegna va fatta ogni volta che ci si iscrive ad un
 appello, anche se nel frattempo non sono intercorse modifiche al codice. Se il
